@@ -31,9 +31,9 @@ nav button:hover {
 }
 
 .fa-plus {
-    border: 2px solid;
-    border-radius: 20px;
-    padding: 1px;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 1px;
 }
 
 .logo {
@@ -165,6 +165,11 @@ h4 {
   list-style: none;
 }
 
+.footer-container ul li:hover {
+  color: #ed1c24;
+  cursor: pointer;
+}
+
 .footer-container p {
   margin: 30px 0 10px 0;
 }
@@ -178,8 +183,6 @@ h4 {
   color: #ed1c24;
 }
 
-.fa-brands {
-}
 .fa-facebook-f {
   margin-right: 12px;
 }
