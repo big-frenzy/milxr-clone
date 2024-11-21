@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav button {
+  background-color: #ffffff;
+  border: 1px solid gainsboro;
+  border-radius: 50px;
+
+  color: #ed1c24;
+  cursor: pointer;
+  font-size: large;
+  padding: 13px 23px;
+}
+
+nav button:hover {
+  color: #333;
+  border-color: #ed1c24;
+}
+
+.fa-plus {
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 1px;
+}
+
+.logo {
+  width: 8%;
+}
+.nav-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin: 0 20px;
+  list-style: none;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  color: #ed1c24;
+}
+
+nav ul li:first-child {
+  color: #ed1c24;
+}
+
+.first-container {
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.first-container button,
+.fourth-container-btn {
+  background-color: #ed1c24;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  margin-top: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 15px 25px;
+  font-weight: bold;
+  transition: all 250ms;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.first-container p {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.second-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 200px;
+  /* border: 2px solid; */
+  margin-bottom: 50px;
+}
+
+.first-image {
+  width: 100%;
+}
+
+h2 {
+  margin-top: 4rem;
+  font-size: 3rem;
+  padding: 0 30px;
+  padding-bottom: 10px;
+}
+
+.third-section h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin: 50px;
+}
+
+.second-container p {
+  padding-left: 30px;
+  padding-right: 40px;
+  line-height: 1.5;
+}
+
+.third-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  padding: 0 350px;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.third-container h3 {
+  margin: 20px 0 10px 0;
+}
+
+.fourth-container {
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+h4 {
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.footer-container ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container ul li {
+  margin: 0 15px;
+  list-style: none;
+}
+
+.footer-container p {
+  margin: 30px 0 10px 0;
+}
+
+.footer-container img {
+  width: 8%;
+}
+
+.icon-div {
+  margin: 10px 0 30px 0;
+  color: #ed1c24;
+}
+
+.fa-brands {
+}
+.fa-facebook-f {
+  margin-right: 12px;
+}
