@@ -37,7 +37,7 @@ nav button:hover {
 }
 
 .logo {
-  width: 8%;
+  width: 9%;
 }
 .nav-div {
   display: flex;
@@ -82,8 +82,9 @@ nav ul li:first-child {
   transition: all 250ms;
 }
 
-.button-5:hover {
-  transform: translateY(-1px);
+.first-container button:hover,
+.fourth-container-btn:hover {
+  opacity: 0.8;
 }
 
 h1 {
